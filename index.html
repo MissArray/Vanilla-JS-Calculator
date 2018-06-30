@@ -12,6 +12,8 @@
 (1) In forms, 'text' as input type allows numbers too.
 (2) In next line for input type, have seen: value='', i.e. empty string, 'disabled' and 'readonly'.
 (3) Re: the security issues arising from the eval function, see notes in .js file.
+(4) Re: accessibility and HTML buttons, see https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_button_role
+The MDN documentation suggests that native HTML buttons are more widely supported than the ARIA button-role, so current calculator html should work with assistive technology.
 -->
 
 	<body role='img' aria-label='Description of the image' title='Tooltip for users not using assistive technologies'>
